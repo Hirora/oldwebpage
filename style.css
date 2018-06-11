@@ -53,7 +53,51 @@ main{
 	
 }
 
+a.wave:link {
+	color: #FF00FF;
+	text-decoration: none;
+	font-style: bold;
+	cursor: default;
+}
+a.wave:visited {
+	color: #FF00FF;
+	text-decoration: none;
+	font-style: bold;
+}
+a.wave:hover {
+	color: #FF00FF;
+	text-decoration: none;
+	font-style: bold;
+}
+a.wave:active {
+	color: #FF00FF;
+	text-decoration: none;
+	font-style: bold;
+}
 
+
+
+a.skip:link {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-style: bold;
+	cursor: default;
+}
+a.skip:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-style: bold;
+}
+a.skip:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-style: bold;
+}
+a.skip:active {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-style: bold;
+}
 
 
 .ub1{
@@ -118,10 +162,39 @@ main{
 	text-align:center;
 	
 	width:100%;
-	height: 10%;
+	height: 20%;
 	
     
 	font-size: 20px;
+	text-shadow: 0px 0px 10px #000000;
+	color: #ffffff
+}
+
+.ub6{
+	position: relative;
+	line-height: 25px;
+	text-align:center;
+	
+	width:100%;
+	height: 20%;
+	
+    
+	font-size: 20px;
+	text-shadow: 0px 0px 10px #000000;
+	color: #ffffff
+}
+
+.ub7{
+	position: absolute;
+	line-height: 25px;
+	text-align:center;
+	
+	width:10%;
+	height: 10%;
+	
+    top: 900px;
+	
+	font-size: 30px;
 	text-shadow: 0px 0px 10px #000000;
 	color: #ffffff
 }
@@ -144,6 +217,11 @@ main{
 	animation-duration:1s;
 }
 
+.fade-in.skip {
+-webkit-animation-delay: 2.5s;
+-moz-animation-delay: 2.5s;
+animation-delay: 2.5s;
+}
 .fade-in.one {
 -webkit-animation-delay: 0.5s;
 -moz-animation-delay: 0.5s;
@@ -172,6 +250,12 @@ animation-delay: 7s;
 -webkit-animation-delay: 10s;
 -moz-animation-delay: 10s;
 animation-delay: 10s;
+}
+
+.fade-in.six {
+-webkit-animation-delay: 13s;
+-moz-animation-delay: 13s;
+animation-delay: 13s;
 }
 
 
